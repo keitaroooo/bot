@@ -1,0 +1,8 @@
+version: "3"
+services:
+  node:
+    build: .
+    container_name: bot
+    volumes:
+      - ./app:/app
+    tty: true
